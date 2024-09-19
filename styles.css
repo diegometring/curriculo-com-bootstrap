@@ -1,0 +1,88 @@
+body {
+    background: linear-gradient(135deg, #f0f8ff 0%, #e6e6fa 100%);
+    font-family: 'Arial', sans-serif;
+    color: #333;
+}
+
+.custom-nav {
+    background-color: #fff;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 15px 0;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.nav-link {
+    color: #555;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #007bff;
+}
+
+.custom-image {
+    border-radius: 50%;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.custom-image:hover {
+    transform: scale(1.1);
+}
+
+.custom-title {
+    color: #4b0082;
+    font-size: 2.5rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+
+.custom-card {
+    background-color: #fff;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 60%;
+    margin-bottom: 40px;
+    background-color: #fafafa;
+}
+
+.card-title {
+    color: #007bff;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.card-text {
+    color: #555;
+    font-size: 1rem;
+}
+
+h3 {
+    color: #4b0082;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+ul li {
+    color: #555;
+    line-height: 1.6;
+}
+
+@media (max-width: 768px) {
+    .custom-card {
+        width: 90%;
+    }
+
+    .custom-title {
+        font-size: 2rem;
+    }
+}
